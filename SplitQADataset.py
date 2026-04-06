@@ -2,8 +2,8 @@ import json
 import re
 from Corpus.TurkishSplitter import TurkishSplitter
 
-input_file = "QAdataset/tr-dev-v1.1.json"
-output_file = "QAdataset/splitted-tr-dev-v1.1.json"
+input_file = "QAdataset/tr-train-v1.1.json"
+output_file = "QAdataset/splitted-tr-train-v1.1.json"
 
 
 def normalize_text(text: str) -> str:
